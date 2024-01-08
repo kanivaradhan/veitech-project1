@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #81c644;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper{
+    margin-top: 10%;
+}
+.wrapper  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.team_members{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.team .team_members h3{
+    color: #5554c;
+    font-size:26px;
+    margin-top:50px;
+}
+.team .team_members p.role{
+    color: #ccc;
+    font-size:12px;
+    text-transform:uppercase;
+    margin: 12px 0 0;
+}
